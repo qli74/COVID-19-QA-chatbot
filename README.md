@@ -70,7 +70,12 @@ IP address (default: 0.0.0.0) is set in PariAI/parlai/chat_service/services/brow
 ### 7.api file written with fastapi: ParlAI/fastapi_covid.py\
 https://github.com/qli74/ParlAI/blob/master/fastapi_covid.py
 
-To launch the web api:
+Install requirements:
+```
+pip install fastapi
+pip install uvicorn
+```
+Launch the web api:
 ```
 uvicorn --port 7100 fastapi_covid:app
 ```
