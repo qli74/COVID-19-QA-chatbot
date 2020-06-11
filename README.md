@@ -10,7 +10,6 @@ paper draft: https://www.overleaf.com/read/xtcnnvdkqghj
 git clone https://github.com/qli74/ParlAI
 cd ParlAI
 python setup.py install
-pip install -r requirements.txt
 python examples/display_data.py -t covid
 ```
 
