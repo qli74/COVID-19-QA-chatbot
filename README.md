@@ -10,7 +10,8 @@ paper draft: https://www.overleaf.com/read/xtcnnvdkqghj
 git clone https://github.com/qli74/ParlAI
 cd ParlAI
 python setup.py install
-python examples/display_data.py -t covid -n 1
+pip install -r requirements.txt
+python examples/display_data.py -t covid
 ```
 
 ### 2.Train a model 
@@ -68,3 +69,12 @@ IP address (default: 0.0.0.0) is set in PariAI/parlai/chat_service/services/brow
 
 ### 7.another api file written with fastapi: ParlAI/fastapi_covid.py\
 https://github.com/qli74/ParlAI/blob/master/fastapi_covid.py
+
+To launch the web api:
+```
+uvicorn --port 7100 fastapi_covid:app
+```
+Get Similar question-answer pairs and scores:
+```
+curl http://127.0.0.1:7100/?question=What%20is%20covid%2019
+```
