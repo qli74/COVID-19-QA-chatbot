@@ -3,6 +3,8 @@ This project is based on ParlAI framework.
 
 code link: https://github.com/qli74/ParlAI
 
+paper draft: https://www.overleaf.com/read/xtcnnvdkqghj
+
 ### 1.Download files and check the data
 ```
 git clone https://github.com/qli74/ParlAI
