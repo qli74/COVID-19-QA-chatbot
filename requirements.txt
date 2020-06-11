@@ -1,5 +1,4 @@
 torch
-git+https://github.com/rsennrich/subword-nmt.git#egg=subword-nmt
 fastapi
 uvicorn
 jsonlines
