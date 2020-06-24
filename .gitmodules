@@ -1,0 +1,4 @@
+[submodule "ParlAI"]
+	path = ParlAI
+	url = https://github.com/qli74/ParlAI.git
+	branch = roctest
