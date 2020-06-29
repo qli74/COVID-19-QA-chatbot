@@ -1,14 +1,16 @@
 # COVID-19 QA chat bot 
 This project is based on ParlAI framework.
 
-code link: https://github.com/qli74/ParlAI
+ParlAI link: https://github.com/qli74/ParlAI
 
 paper draft: https://www.overleaf.com/read/xtcnnvdkqghj
 
 ### 1.Download files and check the data
 ```
-git clone https://github.com/qli74/ParlAI
-cd ParlAI
+git clone https://github.com/qli74/COVID-19-QA-chatbot
+cd COVID-19-QA-chatbot/ParlAI 
+git submodule init
+git submodule update
 python setup.py install
 python examples/display_data.py -t covid
 ```
